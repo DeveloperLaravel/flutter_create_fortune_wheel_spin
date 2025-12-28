@@ -65,16 +65,20 @@ An element inside the wheel
 To select the selected item
 
 
+***
+A
+## Developer Profile
+I am **Abbas**, a Flutter developer passionate about building
+clean, scalable, and maintainable applications.
 
+### 🔧 Skills
+- Flutter & Dart
+- State Management (Bloc)
+- Clean Architecture
+- Local Storage (Hive)
+- Dependency Injection (GetIt + Injectable)
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🌐 Links
+- [ GetHube app](https://github.com/DeveloperLaravel/)
+- [ Useful FaceBoock ](https://www.facebook.com/basbwhlyqh/)
 
