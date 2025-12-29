@@ -1,18 +1,21 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bloc/bloc.dart';
 import 'package:flutter_fortune_wheel/flutter_fortune_wheel.dart';
 import '../bloc/wheel_bloc.dart';
 import '../bloc/wheel_event.dart';
 import '../bloc/wheel_state.dart';
 import '../../injection.dart';
 
-class WheelPage extends StatelessWidget {
-  WheelPage({super.key});
+class WheelPage extends StatefulWidget {
+  const WheelPage({super.key});
 
+  @override
+  State<WheelPage> createState() => _WheelPageState();
+}
+
+class _WheelPageState extends State<WheelPage> {
   final items = ['Flutter', 'Dart', 'Bloc', 'Hive', 'Dio'];
-
   final colors = [
     Colors.red,
     Colors.white,
@@ -20,8 +23,13 @@ class WheelPage extends StatelessWidget {
     Colors.blue,
     Colors.orange,
   ];
-
   final selected = StreamController<int>();
+
+  @override
+  void dispose() {
+    selected.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
