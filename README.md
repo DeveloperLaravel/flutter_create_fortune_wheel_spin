@@ -66,8 +66,9 @@ To select the selected item
 
 
 ***
-A
+
 ## Developer Profile
+
 I am **Abbas**, a Flutter developer passionate about building
 clean, scalable, and maintainable applications.
 
@@ -79,6 +80,9 @@ clean, scalable, and maintainable applications.
 - Dependency Injection (GetIt + Injectable)
 
 ### 🌐 Links
-- [ GetHube app](https://github.com/DeveloperLaravel/)
-- [ Useful FaceBoock ](https://www.facebook.com/basbwhlyqh/)
+- GitHub: https://github.com/DeveloperLaravel/
+- FaceBook: https://www.facebook.com/basbwhlyqh/
+
+
+
 
